@@ -119,6 +119,7 @@ const Page = () => {
           ) : (
             <EventCard
               imageSrc={last?.cover}
+              imageAlt={last?.title}
               title={last?.title}
               date={new Date(last?.date)}
               small
